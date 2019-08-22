@@ -204,8 +204,7 @@ textarea {
 
 
 .subnavbar .caret {
-	margin-top: 4px;
-	
+	margin-top: 4px;	
 	border-top-color: white;
 	border-bottom-color: white;
 }
@@ -213,9 +212,6 @@ textarea {
 .subnavbar .dropdown.open .caret {
 	display: none;
 }
-
-
-
 
 
 /*------------------------------------------------------------------
@@ -250,8 +246,7 @@ textarea {
 }
 
 .extra h4 {
-	margin-bottom: 1em;
-	
+	margin-bottom: 1em;	
 	font-weight: 400;
 }
 
@@ -261,8 +256,7 @@ textarea {
 }
 
 .extra li {
-	margin-bottom: .6em;
-	
+	margin-bottom: .6em;	
 	list-style: none;
 }
 
@@ -301,8 +295,7 @@ textarea {
 [6. Widget / .widget]
 */
 
-.widget {
-	
+.widget {	
 	position: relative;
 	clear: both;	
 	width: auto;	
@@ -397,8 +390,7 @@ textarea {
 }
 
 .widget-table .table {
-	margin-bottom: 0;
-	
+	margin-bottom: 0;	
 	border: none;
 }
 
@@ -450,8 +442,7 @@ textarea {
 }
 
 .error-container h1 {
-	margin-bottom: .5em;
-	
+	margin-bottom: .5em;	
 	font-size: 120px;
 	line-height: 1em;
 }
@@ -1096,8 +1087,7 @@ color: #333;
 		margin-right: -20px;
 		margin-left: -20px;	
 	}
-	
-	
+		
 	.subnavbar {
 		margin-left: -20px;
 		margin-right: -20px;	
@@ -1118,8 +1108,7 @@ color: #333;
 	.subnavbar .container > ul > li {
 		width: 33%;
 		height: 70px;
-		margin-bottom: 0;
-		
+		margin-bottom: 0;		
 		border: none;
 	}
 	
@@ -1132,8 +1121,7 @@ color: #333;
 	
 	.subnavbar .container > ul > li > a > i {	
 		display: inline-block;	
-		margin-bottom: 0;
-		
+		margin-bottom: 0;		
 		font-size: 20px;
 	}
 	
@@ -1192,8 +1180,7 @@ color: #333;
 @media (max-width: 979px) {
 	
 	.navbar-fixed-top {
-		position: static;
-		
+		position: static;		
 		margin-bottom: 0;
 	}
 	

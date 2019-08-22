@@ -26,6 +26,9 @@ myApp.factory('dashboardServices', ['$http', function($http) {
       },
 	  getLastFiveCustomers: function() {
         return $http.get('partials/dashboard/mock/customers_last_five.json').success(function(data) { return data; });
+      },
+	  getLastFiveOrders: function() {
+        return $http.get('partials/dashboard/mock/orders_last_five.json').success(function(data) { return data; });
       }
 	}
 	
@@ -48,6 +51,12 @@ myApp.controller('recentNewsController', ['$scope', 'dashboardServices', functio
 
 myApp.controller('getLastFiveCustomersController', ['$scope', 'dashboardServices', function($scope, dashboardServices) {
 	dashboardServices.getLastFiveCustomers().then(function(result){
+		$scope.data = result.data;	
+	});
+}]);
+
+myApp.controller('getLastFiveOrdersController', ['$scope', 'dashboardServices', function($scope, dashboardServices) {
+	dashboardServices.getLastFiveOrders().then(function(result){
 		$scope.data = result.data;	
 	});
 }]);

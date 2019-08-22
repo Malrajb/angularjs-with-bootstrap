@@ -10,13 +10,13 @@ git clone https://github.com/Malrajb/angularjs-with-bootstrap
 
 # Overview
 
-	. Place this repository in your local server like xampp. 
+	. Place this repository in your local server like xampp 
 
-	. Ex: D:\xampp\htdocs\angularjs-with-bootstrap
+	. Ex: C:\xampp\htdocs\angularjs-with-bootstrap
 
-	. No database connection needed. The dynamic data retirved from json file content inside 'mock' folder.
+	. No database connection needed. The dynamic data retirved from json file content inside 'mock' folder	  
 
-	. Once after placed then, hit the command in root directory  
+	. No database operations held in this application. Because the main objective of the repository is learning and understanding the both angularjs and bootstrap 	
 
 Now the app can be accessible in url : http://localhost/angularjs-with-bootstrap/
  
